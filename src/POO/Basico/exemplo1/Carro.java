@@ -1,5 +1,7 @@
 package POO.Basico.exemplo1;
 
+import POO.Basico.exercicios.um.Aluno;
+
 public class Carro {
     String cor;
     String modelo;

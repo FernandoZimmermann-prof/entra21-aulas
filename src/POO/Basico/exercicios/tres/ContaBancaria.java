@@ -1,5 +1,7 @@
 package POO.Basico.exercicios.tres;
 
+import POO.Basico.exercicios.um.Aluno;
+
 public class ContaBancaria {
     double saldo;
 
@@ -8,6 +10,9 @@ public class ContaBancaria {
             System.out.println("Saldo invalido");
             throw new IllegalArgumentException();
         }
+        Aluno aluno = new Aluno();
+        int idade = aluno.idade;
+
 
         this.saldo = saldo;
     }
